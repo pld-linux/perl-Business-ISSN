@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Business
 %define	pnam	ISSN
-Summary:	Business::ISSN perl module
-Summary(pl):	Modu³ perla Business::ISSN
+Summary:	Business::ISSN - Perl extension for International Standard Serial Numbers
+Summary(pl):	Business::ISSN - rozszerzenie Perla do obs³ugi numerów ISSN
 Name:		perl-Business-ISSN
 Version:	0.90
 Release:	9
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e221b2042c93bd134b6590e54e8ad17d
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Business::ISSN - work with International Standard Serial Numbers.
 
 %description -l pl
-Business::ISSN - modu³ umo¿liwiaj±cy pracê z ISSN (International
-Standard Serial Numbers).
+Business::ISSN to modu³ Perla umo¿liwiaj±cy pracê z ISSN
+(International Standard Serial Numbers).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

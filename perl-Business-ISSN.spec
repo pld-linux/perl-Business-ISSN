@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Business
-%define	pnam	ISSN
+%define		pdir	Business
+%define		pnam	ISSN
 Summary:	Business::ISSN - Perl extension for International Standard Serial Numbers
 Summary(pl):	Business::ISSN - rozszerzenie Perla do obs³ugi numerów ISSN
 Name:		perl-Business-ISSN

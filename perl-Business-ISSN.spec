@@ -3,7 +3,7 @@ Summary:	Business-ISSN perl module
 Summary(pl):	Modu³ perla Business-ISSN
 Name:		perl-Business-ISSN
 Version:	0.90
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

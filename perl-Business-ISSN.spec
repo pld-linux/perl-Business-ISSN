@@ -6,7 +6,7 @@
 %define		pdir	Business
 %define		pnam	ISSN
 Summary:	Business::ISSN - Perl extension for International Standard Serial Numbers
-Summary(pl):	Business::ISSN - rozszerzenie Perla do obs³ugi numerów ISSN
+Summary(pl.UTF-8):   Business::ISSN - rozszerzenie Perla do obsÅ‚ugi numerÃ³w ISSN
 Name:		perl-Business-ISSN
 Version:	0.90
 Release:	10
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Business::ISSN - work with International Standard Serial Numbers.
 
-%description -l pl
-Business::ISSN to modu³ Perla umo¿liwiaj±cy pracê z ISSN
+%description -l pl.UTF-8
+Business::ISSN to moduÅ‚ Perla umoÅ¼liwiajÄ…cy pracÄ™ z ISSN
 (International Standard Serial Numbers).
 
 %prep

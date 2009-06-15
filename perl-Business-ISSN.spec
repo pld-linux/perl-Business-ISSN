@@ -8,12 +8,12 @@
 Summary:	Business::ISSN - Perl extension for International Standard Serial Numbers
 Summary(pl.UTF-8):	Business::ISSN - rozszerzenie Perla do obsługi numerów ISSN
 Name:		perl-Business-ISSN
-Version:	0.90
-Release:	11
+Version:	0.91
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e221b2042c93bd134b6590e54e8ad17d
+# Source0-md5:	d1f609422d3a0ad5e301ae694d142fe4
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc readme Changes
+%doc Changes
 %{perl_vendorlib}/Business/ISSN.pm
 %{_mandir}/man3/*

@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Business
 %define		pnam	ISSN
+%include	/usr/lib/rpm/macros.perl
 Summary:	Business::ISSN - Perl extension for International Standard Serial Numbers
 Summary(pl.UTF-8):	Business::ISSN - rozszerzenie Perla do obsługi numerów ISSN
 Name:		perl-Business-ISSN
@@ -14,8 +14,9 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d1f609422d3a0ad5e301ae694d142fe4
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Business-ISSN/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
